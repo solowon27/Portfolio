@@ -237,12 +237,11 @@ button a:hover {
     }
     .Aboutme img{
         content: url("./Assets/pngwing.com.png");
-        max-width: 200px;
+        max-width: 100%;
         height: auto;
     }
     .Aboutme .image {
-        max-width: 200px;
-        height: auto;
+        order: 2;
     }
     #introduction {
         font-size: 3rem;
