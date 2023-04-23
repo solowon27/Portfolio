@@ -109,19 +109,20 @@ select{
     padding: 10px;
 }
 .Aboutme .image img {
-    max-width: 400px;
+    max-width: 500px;
     height: auto;
 }
 .portfolio {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 5px;
     padding: 10px;
     border-top: 1px solid var(--main-border-color);
 }
 .portfolio .box {
     flex: 1 1 400px;
+    justify-content: space-evenly;
 }
 .portfolio-header{
     text-align: center;
@@ -131,9 +132,10 @@ select{
 .portfolio .box h3 {
     padding: 10px;
     color: #d90429;
+    writing-mode: vertical-lr;
 }
 .box img{
-    max-width: 100%;
+    max-width: 300px;
     height: auto;
     border: 1px solid var(--main-border-color);
     border-radius: 10px;
