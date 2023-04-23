@@ -235,13 +235,8 @@ button a:hover {
     .Aboutme {
         flex-direction: column;
     }
-    .Aboutme img{
-        content: url("./Assets/pngwing.com.png");
-        max-width: 100%;
-        height: auto;
-    }
-    .Aboutme .image {
-        order: 2;
+    .Aboutme .image{
+        display: none;
     }
     #introduction {
         font-size: 3rem;
