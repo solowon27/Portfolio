@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+<header>
+    <img src="./Assets/logo.png" alt="logo" class="logo">
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#Aboutme">About</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contactme">Contact</a></li>
+        </ul>
+</header>
+<main>
+<section class="select-option">
+    <select onchange="location = this.value;"> <!--I get this feautre from chatGPT because i don't know how to make connection external links with option tag-->>
+    <option value="index.html">Portfolio</option>
+    <option value="https://github.com/solowon27/CSS-snippet-Cheatsheet-Wireframe">CSS-snippet-Cheatsheet-Wireframe</option>
+    <option value="https://github.com/solowon27/who-is-tired-of-refreshing-his-her-page">Auto web sync application</option>
+    <option value="https://github.com/solowon27/mini-project">mini-project</option>
+    </select>
+</section>
+
+<section class="mainbar">
+    <div class="mainbar sidebar">
+        <aside>
+            <div class="social-icons">                
+                <a href ="https://twitter.com/SoloWon29/"><img src="./Assets/twitter.png" alt="twitter"></a>
+                <a href ="https://www.facebook.com/Yetucmore/"><img src="./Assets/facebook.png" alt="facebook"></a>
+                <a href="https://github.com/solowon27"><img src="./Assets/291716_github_logo_social-network_social_icon.png" alt="github"></a>
+            </div>
+        </aside>
+    </div>
+<div class="mainbar content">
+    <div class="my-name">
+        <p> Hi! there! I'm, <br><span id="introduction">Solomon <br>Tegegne</span></p>
+         <p>Web developer!</p>
+    </div>
+    <div class="my-image">
+        <figure>
+        <img src="./Assets/pngwing.com2.png" alt="Profile picture replacer">
+        </figure>
+</div>
+</section>
+<section class="Aboutme" id="Aboutme">
+    <div class="Aboutme textarea">
+        <h2>About Me</h2>
+       <article>
+        <p>My name is <span>Solomon Tegegne</span>, and I'm a full-stack Developer based in <span>Utah</span>. I'm passionate about using technology to solve real-world problems and make people's lives easier.
+                     I have <span>1 years</span> of experience in the Web Designing Industry, and have worked on a variety of projects, from mobile apps to web applications. I specialize in front-end development, back-end development, full-stack development. and am always looking to learn new skills and technologies.
+                        I'm always up for trying something new. I believe in living life to the fullest and making the most of every opportunity.
+                            If you have any questions or would like to work together, please don't hesitate to <a href="mailto:solowon27@hotmail.com">contact me</a> and I look forward to hearing from you!
+        </p>
+       </article>
+</div>
+    <div class="Aboutme image">
+        <img src="./Assets/pngwing.com1.png" alt="About me guider">
+    </div>
+</section>
+<section class="portfolio-header">
+    <h1 id="portfolio">Portfolio</h1>
+</section>
+<section class="portfolio">
+    <div class="box box1">
+        <h3>CSS-snippet-Cheatsheet-Wireframe</h3>
+        <figure>
+            <a href="https://github.com/solowon27/CSS-snippet-Cheatsheet-Wireframe"><img src="https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y29kZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60" alt="Work1 image"></a>
+        </figure>
+    </div>
+    <div class="box box2">
+        <h3>Auto web sync application</h3>
+        <figure>
+            <a href="https://github.com/solowon27/who-is-tired-of-refreshing-his-her-page"><img src="https://plus.unsplash.com/premium_photo-1676150789916-2c7d1fdda6b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGNvZGV8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60" alt="Work1 image"></a>
+        </figure>
+    </div>
+    <div class="box box3">
+        <h3>mini-project</h3>
+        <figure>
+            <a href="https://github.com/solowon27/mini-project"><img src="https://images.unsplash.com/photo-1565843708714-52ecf69ab81f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI3fHxjb2RlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60" alt="Work1 image"></a>
+        </figure>
+    </div>
+</section>
+<section class="contact-body">    
+        <div class="contactme" id="contactme">  
+            <span id="phone">phone:</span> 801 633 9514 <br>
+            <span id="email">email:</span>solowon27@hotmail.com        
+            <ul>
+                <li><a href="https://twitter.com/SoloWon29/"><img src="./Assets/twitter.png" alt="twitter"></a></li>
+                <li><a href="https://www.facebook.com/Yetucmore/"><img src="./Assets/facebook.png" alt="facebook"></a></li>
+               <li><a href="https://github.com/solowon27"><img src="./Assets/291716_github_logo_social-network_social_icon.png" alt="github"></a></li>
+            </ul>              
+        </div>               
+         <button id="contactme"><a href="mailto:solowon27@hotmail.com">Contact Me</a></button>    
+</section>
+<footer>
+    <div class="footer">
+        <p>Solomon Tegegne &copy; 2021</p>
+    </div>
+</footer>
+</main>
+</body>
+</html>
