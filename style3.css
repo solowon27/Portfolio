@@ -132,7 +132,7 @@ select{
 .portfolio .box h3 {
     padding: 10px;
     color: #d90429;
-    writing-mode: vertical-lr;
+    writing-mode: horizontal-tb;
 }
 .box img{
     max-width: 300px;
@@ -242,5 +242,8 @@ button a:hover {
     }
     #introduction {
         font-size: 3rem;
+    }
+    .portfolio .box h3 {
+        writing-mode: vertical-lr;
     }
 }
