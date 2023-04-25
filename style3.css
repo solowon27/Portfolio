@@ -104,7 +104,7 @@ select{
     padding: 10px;
     text-align: center;
 }
-.Aboutme .image {
+.Aboutme .image { /* Android test failed */
     display: flex;
     flex-wrap: wrap;
     flex: 2 1 300px;
