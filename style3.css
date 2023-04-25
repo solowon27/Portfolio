@@ -255,6 +255,10 @@ button a:hover {
     .Aboutme {
         flex-direction: column;
     }
+    
+    .Aboutme .image{
+        display: none;
+    }
     #introduction {
         font-size: 3rem;
     }  
