@@ -115,38 +115,64 @@ select{
 .portfolio {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 5px;
-    padding: 10px;
-    border-top: 1px solid var(--main-border-color);
-}
-.portfolio .box {
+    align-items: flex-start;
+  }
+  
+  .box {
+    width: calc(33.33%);
+    min-height: 300px;
+    margin: 10px;
+    border: 1px solid #ccc;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-}
-.box .box1 {
-    width: calc(66.66% - 20px); /* 100% - (2 * 20px) */
   }
+  .box1 {
+    flex: 2 1 400px;
+    width: calc(33.33% - 10px);
+    height: 400px;
+    margin: 10px;
+  }
+    .box2 {
+        flex: 2 1 300px;
+        width: calc(33.33% - 10px);
+        margin: 10px;
+    }
+  .box img {
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    object-fit: contain;
+    border: 1px solid var(--main-border-color);
+    border-radius: 10px;
+  }
+  .box:nth-child(1), /* i get this selection method from chatGPT assistant */
+  .box:nth-child(2),
+  .box:nth-child(3) {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+  }
+    .box:nth-child(4),
+    .box:nth-child(5),
+    .box:nth-child(6) {
+      margin-top: 10px;
+      padding: 10px;
+      width: 200px;
+      height: 200px;
+      align-items: center;
+      justify-content: center;
+    }
 .portfolio-header{
     text-align: center;
     padding: 10px;
     border-top: 1px solid var(--main-border-color);
 }
 .portfolio .box h3 {
-    padding: 10px;
     color: #d90429;
-    writing-mode: horizontal-tb;
-    margin-top: 0;
-    text-align: center;
-}
-.box img{
-    max-width: 300px;
-    height: auto;
-    border: 1px solid var(--main-border-color);
-    border-radius: 10px;
-    box-shadow: 0 0 5px 0 rgba(0,0,0,0.096);
+    margin-bottom: 5px;
 }
 .contact-body {
     display: flex;
@@ -265,4 +291,7 @@ button a:hover {
     .portfolio .box {
         flex-direction: column;
         }   
+        #top img {
+            content: url("./Assets/down-arrow.png");
+        }
 }

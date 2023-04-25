@@ -7,13 +7,13 @@ This is an HTML file with associated CSS and image assets that make up a portfol
 ## File structure
 
 - `index.html`: The main HTML file that contains the structure of the website.
-- `style3.css`: The stylesheet that controls the presentation of the HTML elements.
+- `style.css`: The stylesheet that controls the presentation of the HTML elements.
 - `Assets`: The directory that contains the image assets used in the website.
 - inside the assets folder there are 2 screenrecording videos that show the different layout of the website on different screen sizes.
 
 ## How to use
 
-To use the website, simply open the `index.html` file in a web browser. The website is responsive and can be viewed on a variety of devices. but i recommend  to launch on a laptop or desktop computer using firefox developer edition browser, and i add 2 screenshots of the website on different screen sizes inside the assets folder.
+To use the website, simply open the `index.html` file in a web browser. The website is responsive and can be viewed on a variety of devices. but i recommend  to launch on a laptop or desktop computer using firefox developer edition browser.
 
 ## Additional / Important information
 
