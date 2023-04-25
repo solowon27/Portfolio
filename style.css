@@ -116,17 +116,18 @@ select{
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
+    justify-content: space-evenly;
   }
   
   .box {
+    display: flex;
+    flex-wrap: wrap;
     width: calc(33.33%);
     min-height: 300px;
     margin: 10px;
-    border: 1px solid #ccc;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    border: 1px solid var(--main-border-color);  
+    align-items: space-evenly;
+    justify-content: space-evenly;
   }
   .box1 {
     flex: 2 1 400px;
@@ -292,4 +293,16 @@ button a:hover {
     .portfolio .box {
         flex-direction: column;
         }
+       .box {
+        flex-direction: column;
+       }
 }
+@media only screen and (max-width: 768px) {
+    .box:nth-child(3),
+    .box:nth-child(4),
+    .box:nth-child(5),
+    .box:nth-child(6) {
+      width: 150px;
+      height: auto;
+    }
+  }
