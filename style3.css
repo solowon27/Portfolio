@@ -121,8 +121,10 @@ select{
     border-top: 1px solid var(--main-border-color);
 }
 .portfolio .box {
-    flex: 1 1 400px;
-    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
 }
 .portfolio-header{
     text-align: center;
@@ -133,6 +135,8 @@ select{
     padding: 10px;
     color: #d90429;
     writing-mode: horizontal-tb;
+    margin-top: 0;
+    text-align: center;
 }
 .box img{
     max-width: 300px;
@@ -246,8 +250,8 @@ button a:hover {
     }
     #introduction {
         font-size: 3rem;
-    }
-    .portfolio .box h3 {
-        writing-mode: vertical-lr;
-    }
+    }  
+    .portfolio .box {
+        flex-direction: column;
+        }   
 }
