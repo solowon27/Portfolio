@@ -126,6 +126,9 @@ select{
     align-items: center;
     justify-content: center;
 }
+.box .box1 {
+    width: calc(66.66% - 20px); /* 100% - (2 * 20px) */
+  }
 .portfolio-header{
     text-align: center;
     padding: 10px;
@@ -251,10 +254,6 @@ button a:hover {
             }
     .Aboutme {
         flex-direction: column;
-    }
-    
-    .Aboutme .image{
-        display: none;
     }
     #introduction {
         font-size: 3rem;
