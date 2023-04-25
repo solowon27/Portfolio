@@ -127,7 +127,7 @@ select{
     margin: 10px;
     border: 1px solid var(--main-border-color);  
     align-items: space-evenly;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
   .box1 {
     flex: 2 1 400px;
@@ -295,6 +295,9 @@ button a:hover {
         }
        .box {
         flex-direction: column;
+       }
+       .Aboutme article{
+        line-height: 1.2;
        }
 }
 @media only screen and (max-width: 768px) {

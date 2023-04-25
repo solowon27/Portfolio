@@ -1,7 +1,8 @@
 # README
 
 This is an HTML file with associated CSS and image assets that make up a portfolio website. This website is a portfolio of a Full-Stack web developer named Solomon Tegegne. in this project, I have used HTML and CSS to create a website that contains a header, a main section, and a footer. The website is responsive and can be viewed on a variety of devices. and also I have used the flexbox layout to create a responsive layout for the website.
-** you can have a better understanding about the framework if u look at the design presentation pdf file inside the assets folder.
+** you can have a better understanding about the framework if u look at the Framework presentation pdf file inside the assets folder.
+** inside the assets folder there are 7 screenshoots that show the different layout of the website on different screen sizes.
 
 
 ## File structure
@@ -9,7 +10,7 @@ This is an HTML file with associated CSS and image assets that make up a portfol
 - `index.html`: The main HTML file that contains the structure of the website.
 - `style.css`: The stylesheet that controls the presentation of the HTML elements.
 - `Assets`: The directory that contains the image assets used in the website.
-- inside the assets folder there are 2 screenrecording videos that show the different layout of the website on different screen sizes.
+
 
 ## How to use
 
