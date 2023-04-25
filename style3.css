@@ -220,6 +220,9 @@ button a:hover {
 * img:hover {
     transform: scale(1.05);
 }
+* a:hover {
+    cursor: pointer;
+}
 @media screen and (max-width: 768px){
     .mainbar {
         flex-direction: column;
@@ -237,6 +240,7 @@ button a:hover {
     .Aboutme {
         flex-direction: column;
     }
+    
     .Aboutme .image{
         display: none;
     }
