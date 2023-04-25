@@ -135,10 +135,11 @@ select{
     margin: 10px;
   }
     .box2 {
-        flex: 2 1 300px;
+        flex: 1 1 300px;
         width: calc(33.33% - 10px);
         margin: 10px;
     }
+ 
   .box img {
     width: 100%;
     max-width: 300px;
@@ -290,8 +291,5 @@ button a:hover {
     }  
     .portfolio .box {
         flex-direction: column;
-        }   
-        #top img {
-            content: url("./Assets/down-arrow.png");
         }
 }
