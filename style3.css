@@ -105,8 +105,9 @@ select{
     text-align: center;
 }
 .Aboutme .image {
-    flex: 2 1 400px;
-    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2 1 300px;
 }
 .Aboutme .image img {
     max-width: 500px;
