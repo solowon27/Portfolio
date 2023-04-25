@@ -58,7 +58,7 @@ select{
     margin-top: 10px;
     padding: 12px 24px;
     border-radius: 50px;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 .mainbar{
     display: flex;
@@ -104,10 +104,9 @@ select{
     padding: 10px;
     text-align: center;
 }
-.Aboutme .image { /* Android test failed */
-    display: flex;
-    flex-wrap: wrap;
-    flex: 2 1 300px;
+.Aboutme .image {
+    flex: 2 1 400px;
+    padding: 10px;
 }
 .Aboutme .image img {
     max-width: 500px;
@@ -238,10 +237,13 @@ button a:hover {
         border-right: none;
         border-bottom: 1px solid var(--main-border-color);
     }
+    select {
+        max-width: 200px;
+    }
     .select-option{
        position: absolute;
          right: 0;
-    }
+            }
     .Aboutme {
         flex-direction: column;
     }
