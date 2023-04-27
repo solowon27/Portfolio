@@ -117,6 +117,7 @@ select{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    border-top: 1px solid var(--main-border-color);
   }
   .box {
     margin: 10px;
@@ -127,17 +128,18 @@ select{
     z-index: 0;
     border: 1px solid var(--main-border-color);
     border-radius: 10px;
+    box-shadow: 5px 5px 5px #888888;
   }
   
   .box img {
     max-width: 100%;
-    height: auto;
+    height: auto;   
   }
   .box1 {
-    flex-basis: 60%;
+    flex-basis: 60%; /*making box1 bigger than other boxes*/
   }
   .box2, .box3, .box4, .box5, .box6 {
-    flex-basis: 30%;
+    flex-basis: 30%; /*making all boxes same size but smaller than box1*/
   }    
 .portfolio-header{
     text-align: center;
@@ -231,6 +233,7 @@ button a:hover {
 }
 * img:hover {
     transform: scale(1.05);
+    opacity: 1;
 }
 * a:hover {
     cursor: pointer;
@@ -238,6 +241,11 @@ button a:hover {
 .box:hover{
     border: 2px dashed #d90429;
 }
+h3[message]:hover::after{
+content: attr(message);
+color: black;
+}
+
 @media screen and (max-width: 768px){
     .mainbar {
         flex-direction: column;
@@ -268,8 +276,8 @@ button a:hover {
     .portfolio .box {
         flex-direction: column;
         }
-       .box {
+       .box2, .box3, .box4, .box5, .box6 {
         flex-direction: column;
-        flex-basis: 45%;
+        flex-basis: 40%;
        }
 }
